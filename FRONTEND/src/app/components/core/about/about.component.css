@@ -1,0 +1,24 @@
+/* Stil za pozadinu */
+.about-us {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/05/13/89/79/1000_F_513897989_GN5VvVnEK8eB3ekAIJggW5TxCnLC5cwC.jpg');
+    background-size: cover; /* Slika će pokriti ceo element */
+    background-position: center center; /* Postavi sliku na centar elementa */
+    background-attachment: fixed; /* Fiksiraj pozadinu kako bi pratila skroling */
+    height: 100vh; /* Visina elementa je 100% visine prozora (viewport height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:darkblue;
+    font-family:cursive;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Bela senka oko teksta */
+
+}
+
+
+.about-us h2 {
+    font-size: 2rem; /* Veličina naslova */
+    margin-bottom: 20px; /* Margina ispod naslova */
+}

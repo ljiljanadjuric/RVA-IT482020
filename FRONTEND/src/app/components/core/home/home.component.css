@@ -1,0 +1,25 @@
+/* Stil za hero sekciju */
+.hero {
+    background-image: url('https://www.freevector.com/uploads/vector/preview/12939/FreeVector-Travel-Background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding: 200px;
+    height: 200px;
+}
+
+.title-box {
+    background-color: rgba(255, 255, 255, 0.6); /* Pozadina */
+    border: 2px solid #c96195; /* Okvir sa bojom */
+    border-radius: 10px; /* Zaobljeni ivice */
+    padding: 30px; /* Prostor unutar oblačića */
+    display: inline-block; /* Da se oblačić prilagodi širini teksta */
+    font-family:cursive;
+    
+}
+
+.title-box h1 {
+    font-size: 3rem;
+    margin: 0;
+    
+}

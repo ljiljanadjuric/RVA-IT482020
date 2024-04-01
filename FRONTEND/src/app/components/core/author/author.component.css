@@ -1,0 +1,25 @@
+/* Stilizacija za .centered-content */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Visina ekrana */
+    background-color: blueviolet; /* Boja pozadine */
+}
+
+/* Stilizacija za .author-info */
+.author-info {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Pozadina*/
+    border: 2px solid #a569ff; /* Okvir sa bojom */
+    border-radius: 10px; /* Zaobljene ivice */
+    color: #333; /* Boja teksta */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sijenke */
+}
+
+/* Stilizacija za h2 u .author-info */
+.author-info h2 {
+    font-size: 2rem; /* Veličina naslova */
+    margin-bottom: 20px; /* Margina ispod naslova */
+}
